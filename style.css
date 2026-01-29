@@ -149,3 +149,29 @@ margin-top: 10px; border-radius: 10px;text-align: center;}
   }
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: rgb(207, 10, 10);
+}
+
+.logo-img {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 16px;
+  white-space: nowrap; color: black;
+}
+.main{background-image: url('images/preaching.jpg');
+background-size: cover; background-position: center; 
+background-repeat: no-repeats; padding: 100px; margin-top: 20px; color:red;text-align: center;
+}
+.memory{text-align: center;display: flexbox;background: darkolivegreen;color: white;
+border-radius: 15px; padding: 15px; margin: 15px;
+}
