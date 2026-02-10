@@ -4,66 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memory Base</title>
-  <!-- Use the main style.css for consistency -->
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
-<body>
 
-<header class="header">
-  <nav class="navbar">
-    
-    <!-- Ham burger button for mobile -->
-    <button class="menu-toggle" id="menuToggle">☰</button>
+<body class="bg-gray-100 text-gray-800">
 
-    <ul class="menu" id="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="memory.html">Memory Verses</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-          </ul>
+<!-- HEADER -->
+<header class="bg-blue-800 text-white p-4 shadow-md">
+  <nav class="flex justify-between items-center max-w-6xl mx-auto">
+
+    <h1 class="text-xl font-bold">AFC Adiasim</h1>
+
+    <!-- Menu -->
+    <ul class="flex space-x-6 text-sm font-medium">
+      <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+      <li><a href="memory.html" class="hover:text-yellow-300">Memory Verses</a></li>
+      <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+    </ul>
+
   </nav>
 </header>
 
-<main class="content">
+<!-- MAIN CONTENT -->
+<main class="max-w-5xl mx-auto p-6">
 
-  <h1>Weekly Memory verse</h1>
-  <p class="intro">
+  <h1 class="text-3xl font-bold text-center mb-4">Weekly Memory Verse</h1>
+  <p class="text-center text-gray-600 mb-8">
     Weekly moments from AFC, Adiasim branch.
   </p>
 
-  <!-- Memory Post -->
-  <article class="memory">
-    <h2>Adult memory verse</h2>
-    <small>
-      Topic: WATER, MANNA, AND QUAILS
-    </small>
-    <p><small>Text: [Exo 15:22-27]; [Exo 16:1-36]</p>
-   
-      <p>
-      "Now all these thing happened unto them for ensamples: and they are written for our admonition, 
-      upon whom the ends of he world are come" (I Corinthians 10: 11)</p>
+  <!-- Adult Memory Verse -->
+  <article class="bg-white p-6 rounded-lg shadow mb-6">
+    <h2 class="text-xl font-semibold mb-2">Adult Memory Verse</h2>
+    <p class="text-sm text-gray-500 mb-2">Topic: WATER, MANNA, AND QUAILS</p>
+    <p class="text-sm mb-4">Text: Exo 15:22–27; Exo 16:1–36</p>
+
+    <p class="italic">
+      “Now all these things happened unto them for examples: and they are written for our admonition,
+      upon whom the ends of the world are come.” (1 Corinthians 10:11)
+    </p>
   </article>
 
-  <!-- Memory Post -->
-  <article class="memory">
-    <h2>Intermediate memory verse</h2>
-    <small>
-      Topic: WATER, MANNA, AND QUAILS
-    </small>
-    <p><small>Text: [Exo 15:22-27]; [Exo 16:1-36]</small>
-</p>
-        <p>
-      "Do all things without murmuring and disputings" (Philippians 2:14).</p>
+  <!-- Intermediate Memory Verse -->
+  <article class="bg-white p-6 rounded-lg shadow">
+    <h2 class="text-xl font-semibold mb-2">Intermediate Memory Verse</h2>
+    <p class="text-sm text-gray-500 mb-2">Topic: WATER, MANNA, AND QUAILS</p>
+    <p class="text-sm mb-4">Text: Exo 15:22–27; Exo 16:1–36</p>
+
+    <p class="italic">
+      “Do all things without murmuring and disputings.” (Philippians 2:14)
+    </p>
   </article>
 
 </main>
 
-<footer>
-  <p>&copy; 2026 Church Website. All rights reserved.</p>
+<!-- FOOTER -->
+<footer class="bg-blue-800 text-white text-center p-4 mt-10">
+  <p>&copy; 2026 Apostolic Faith Church Adiasim Branch. All rights reserved.</p>
 </footer>
 
-<!-- JS for mobile menu -->
-<script src="script.js"></script>
 </body>
 </html>
